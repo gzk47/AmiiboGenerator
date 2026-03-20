@@ -161,7 +161,8 @@ public:
             "X           : generate selected amiibo\n"
             "Y           : cycle amiibo info\n"
             "LS          : delete current selected amiibo\n\n"
-            
+            "AUTHOR      : Slluxx, gzk_47\n\n"
+			
             "Press B to go back.\n", generateWithImage ? "Enabled" : "Disabled", info[currentInfoIndex]
         );
     }

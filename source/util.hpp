@@ -53,7 +53,7 @@ namespace UTIL
             remove("sdmc:/emuiibo/amiibos.json");
         }
 
-        int ret = UTIL::downloadFile("https://www.amiiboapi.com/api/amiibo/", "sdmc:/emuiibo/amiibos.json");
+        int ret = UTIL::downloadFile("https://www.amiiboapi.org/api/amiibo/", "sdmc:/emuiibo/amiibos.json");
         if (ret == 0)
         {
             return true;
@@ -76,7 +76,7 @@ namespace UTIL
                 printf("Failed to download amiibo database.\n");
                 printf("Make sure you have an internet connection and an unmodified PRODINFO\n");
                 printf("Alternatively, you can download the database manually from:\n");
-                printf("https://www.amiiboapi.com/api/amiibo/");
+                printf("https://www.amiiboapi.org/api/amiibo/");
                 printf("\nand place it into:\n");
                 printf("sdmc:/emuiibo/amiibos.json");
                 printf("\n\n");
